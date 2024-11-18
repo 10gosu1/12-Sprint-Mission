@@ -14,6 +14,22 @@ html{
   padding: 0px 200px;
 }
 
+.navigation .login-button{
+  width: 128px;
+  height: 48px;
+  line-height: 26px;
+  border-radius: 8px;
+  padding: 12px 23px;
+  background-color: #3692FF;
+  text-align: center;
+  text-decoration: none;
+  color: #F3F4F6;
+}
+
+.navigation .login-button:hover {
+  background-color: #1251AA;
+}
+
 header{
   background-color: #CFE5FF;
   height: 540px;
@@ -21,6 +37,8 @@ header{
   align-items: flex-end;
   justify-content: center;;
 }
+
+
 
 .first-badge{
   display: flex;
@@ -34,9 +52,12 @@ header{
 }
 
 .badge-text{
-  font-size: 32px;
-  line-height: 42px;
-  font-weight: 800;
+  font-size: 40px;
+  line-height: 56px;
+  font-weight: 700;
+  padding-right: 62px;
+  padding-bottom: 32px;
+  font-family: 'Pretendard';
 }
 
 .view-more{
@@ -49,6 +70,10 @@ header{
   width: 357px;
   text-align: center;
   border-radius: 9999px;
+}
+
+.view-more:hover {
+  background-color: #1251AA;
 }
 
 header img{
@@ -81,7 +106,7 @@ header img{
   padding-right: 23.5px;
 }
 
-.first-home h1{
+.first-home span{
   color: #3692FF;
   font-size: 18px;
   font-weight: 700;
@@ -89,10 +114,17 @@ header img{
   font-family: 'Pretendard';
 }
 
-.first-home span{
+.first-home h2{
   font-size: 40px;
   font-weight: 700;
   line-height: 56px;
+}
+
+.first-home p{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  font-family: 'Pretendard';
 }
 
 .second-home{
@@ -108,6 +140,8 @@ header img{
   justify-content: center;
   margin: 138px;
 }
+
+
 
 .second-home .text-box{
   padding-left: 64px;
