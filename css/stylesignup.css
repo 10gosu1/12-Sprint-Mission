@@ -75,10 +75,14 @@ button{
   width: 640px;
   height: 56px;
   font-weight: 400;
-  background-color: #9ca3af;
+  background-color: #3692FF;
   color: #F3F4F6;
   font-size: 20px;
   border-radius: 40px;
+}
+
+button:hover{
+  background-color: #1251AA;
 }
 
 .social-login{
