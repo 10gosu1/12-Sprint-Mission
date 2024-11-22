@@ -233,36 +233,46 @@ header img{
   margin-bottom: 112.5px;
 }
 
-
 .outer-box{
-  padding: 32px 0 108px;
   background-color: #111827;
-  font-size: 1.5em;
-  position: relative;
+  font-size: 16px;
+  padding: 32px;
+  gap: 60px;
+  height: 160px;
 }
 
 .footer-box{
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0 200px;
+  padding: 32px 400px;
   height: 20px;
 }
 
 .footer-box p{
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19.09;
-  text-align: center;
   color: #9CA3AF;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.09px;
+  text-align: center;
 }
 
-.footer-box a{
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19.09;
-  text-align: center;
+.footer-box .detail{
+  display: flex;
+  gap: 30px;
+}
+
+.footer-box .detail a{
   color: #E5E7EB;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.09px;
   text-decoration: none;
+}
+
+.footer-box .SNS-logo{
+  display: flex;
+  gap: 12px;
 }
